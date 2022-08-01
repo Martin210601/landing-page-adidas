@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="./assets/main.css" />
+        <title>Adidas</title>
+    </head>
+    <body>
+<!-- Full screen modal -->
+        <div class=" myModal">
+            <div class="header">
+                <div class="header-logo"><img
+                    src="https://www.adidas.com/glass/react/0f3e48b/assets/img/icon-adidas-logo.svg"
+                    alt="logo"
+                /></div>
+                <div class="header-back">x
+                </div>
+            </div>
+            <div class="modal-body">
+                <ul class="modal-body-list">
+                    <li class="modal-body-list-item bold">Man</li>
+                    <li class="modal-body-list-item bold">Women</li>
+                    <li class="modal-body-list-item bold">Kids</li>
+                    <li class="modal-body-list-item ">Others</li>
+                </ul>
+            </div>
+            <div class="modal-menu">
+                <ul class="modal-menu-list">
+                    <li class="modal-menu-list-item">My Account</li>
+                    <li class="modal-menu-list-item"> Order Tracker</li>
+                    <li class="modal-menu-list-item">Gift cards</li>
+                    <li class="modal-menu-list-item">Store Locator</li>
+                    <li class="modal-menu-list-item">Mobile App</li>
+                    <li class="modal-menu-list-item">Exchanges and Return</li>
+                </ul>
+            </div>
+        </div>
+        <div class="box-container">
+            <div class="navbar d-flex flex-row">
+                <div class="navbar-bar d-flex justify-content-center">
+                    <a href="#" class="navbar-bar-text">
+                        FREE STANDARD SHIPPING & RETURNS | JOIN NOW
+                    </a>
+                </div>
+                <div class="navbar-menu d-flex">
+                    <div class="navbar-menu-bars flex-column">
+                        <div class="box-bars">
+                            <span class="bars"></span>
+                            <span class="bars"></span>
+                            <span class="bars"></span>
+                        </div>  
+                    </div>
+                    <div class="navbar-menu-logo">
+                        <img
+                            src="https://www.adidas.com/glass/react/0f3e48b/assets/img/icon-adidas-logo.svg"
+                            alt="logo"
+                        />
+                    </div>
+                    <div class="navbar-menu-list">
+                        <div class="navbar-menu-list-item generation man-item">
+                            Man
+                            <span class="border-bottom"></span>
+                        </div>
+                        <div
+                        class="navbar-menu-list-item generation women-item">
+                        Women
+                        <span class="border-bottom"></span>
+                    </div>
+                    <div class="navbar-menu-list-item generation kids-item">
+                        Kids
+                        <span class="border-bottom"></span>
+                    </div>
+                    <div class="navbar-menu-list-item school-item">
+                        Back to School
+                        <span class="border-bottom"></span>
+                    </div>
+                    <div class="navbar-menu-list-item sale-item">
+                        Sale
+                        <span class="border-bottom"></span>
+                    </div>
+                        <div class="navbar-search d-flex">
+                            <input
+                                type="text"
+                                class="navbar-search-input"
+                                placeholder="Search"
+                            />
+                            <div class="navbar-search-icon">
+                                <img
+                                    class="icon-search"
+                                    src="./assets/img/search-line.png"
+                                    alt="icon-search"
+                                />
+                            </div>
+                        </div>
+                        </div>
+                        <div class="navbar-menu-user d-flex">
+                            <div class="navbar-menu-user-icon">
+                                <img
+                                    class="navbar-icon"
+                                    src="./assets/img/user.jpg"
+                                    alt="icon-bag"
+                                />
+                            </div>
+                            <div class="navbar-menu-user-fav">
+                                <img
+                                    class="navbar-icon"
+                                    src="./assets/img/hearticon.jpg"
+                                    alt="icon-bag"
+                                />
+                            </div>
+                            <div class="navbar-menu-user-bag">
+                                <img
+                                    class="icon-bag"
+                                    src="./assets/img/shopping-bag.png"
+                                    alt="icon-bag"
+                                />
+                                <div class="cart-shopping">
+                                    <h3 class="cart-shopping-text">
+                                        YOUR BAG IS EMPTY
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="category row">  
+                    <div class="category-list row">
+                        <div class="category-list-trend col-4">
+                            <div class="category-list-trend-menu col-12">
+                                <h3 class="heading">New and Trending</h3>
+                                <span class="text-item">New arrivals</span>
+                                <span class="text-item">Best seller</span>
+                                <span class="text-item">Only at Adias</span>
+                                <span class="text-item">Summer Collection</span>
+                                <span class="text-item">Member Exclusive</span>
+                                <span class="text-item">Sportwear Collection</span>
+                                <span class="text-item">Release Dates</span>
+                                <img class="category-img" src="./assets/img/sale.png">
+                            </div>
+                        </div>
+                        <div class="category-list-gender col-8">
+                            <div class="category-list-gender-man col-3">
+                                <h3 class="category-heading">Man</h3>
+                                <div class="category-item">Hoodie</div>
+                                <div class="category-item">T-shirts</div>
+                                <div class="category-item">Jacket</div>
+                                <div class="category-item">Short</div>
+                                <div class="category-item">Sneakers</div>
+                                <div class="category-item">Underwear</div>
+                                <div class="category-item">Pants</div>
+                                <div class="category-item">Tracksuit</div>
+                                <div class="category-item">Soccer</div>
+                                <div class="category-item">Bags</div>
+                            </div>
+                            <div class="category-list-gender-women col-3">
+                                <h3 class="category-heading">Women</h3>
+                                <div class="category-item">Hoodie</div>
+                                <div class="category-item">T-shirts</div>
+                                <div class="category-item">Jacket</div>
+                                <div class="category-item">Short</div>
+                                <div class="category-item">Sneakers</div>
+                                <div class="category-item">Underwear</div>
+                                <div class="category-item">Clothing</div>
+                            </div>
+                            <div class="category-list-gender-boys col-3">
+                                <h3 class="category-heading">Boys</h3>
+                                <div class="category-item">Hoodie</div>
+                                <div class="category-item">T-shirts</div>
+                                <div class="category-item">Jacket</div>
+                                <div class="category-item">Short</div>
+                                <div class="category-item">Sneakers</div>
+                                <div class="category-item">Underwear</div>
+
+                            </div>
+                            <div class="category-list-gender-girls col-3">
+                                <h3 class="category-heading">Girls</h3>
+                                <div class="category-item">Hoodie</div>
+                                <div class="category-item">T-shirts</div>
+                                <div class="category-item">Jacket</div>
+                                <div class="category-item">Short</div>
+                                <div class="category-item">Sneakers</div>
+                                <div class="category-item">Underwear</div>
+                                <div class="category-item">Socks</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="body-container">
+                    <div class="body-header">
+                        <div class="body-header-thumb">
+                            <div class="body-header-thumb-heading">
+                                <h2 class="body-text-heading">FASTER IN ALL DIMENSIONS</h2>
+                                <span class="body-text-des">Explore multidimensional speed with the new X Speedportal & Rick and Morty.
+                                    </span>
+                                <button class="body-header-button">SHOP NOW
+                                    <svg class="icon-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M502.6 278.6l-128 128c-12.51 12.51-32.76 12.49-45.25 0c-12.5-12.5-12.5-32.75 0-45.25L402.8 288H32C14.31 288 0 273.7 0 255.1S14.31 224 32 224h370.8l-73.38-73.38c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l128 128C515.1 245.9 515.1 266.1 502.6 278.6z"/></svg>
+                                </button>
+                            </div>
+                            <video src="./assets/img/thumbvideo.mp4" id="thumb-lg" autoplay loop playinline preload="auto" muted class="body-header-thumb-video"></video>
+                            <video src="./assets/img/thumbvideosmall.mp4" id="thumb-sm" autoplay loop playinline preload="auto" muted class="body-header-thumb-video"></video>
+                        </div>
+                    </div>
+                    <div class="body-popular">
+                        <div class="body-popular-heading row">
+                            <h2 class="body-popular-heading-text col-12">
+                                Popular right now
+                            </h2>
+                        </div>
+                        <div class="body-popular-content row">
+                            <div class="body-popular-content-item col-lg-4 col-md-12">Football</div>
+                            <div class="body-popular-content-item col-lg-4 col-md-12">Ultraboost</div>
+                            <div class="body-popular-content-item col-lg-4 col-md-12">Arsenal</div>
+                            <div class="body-popular-content-item col-lg-4 col-md-12">Sliders</div>
+                            <div class="body-popular-content-item col-lg-4 col-md-12">Yeezy</div>
+                            <div class="body-popular-content-item col-lg-4 col-md-12">Ozweego</div>
+                        </div>
+                        <div class="body-ask-heading ">
+                            <h2 class="body-ask-heading-text col-12">Who are you shopping for?</h2>
+                        </div>
+                        <div class="body-choice">
+                            <div class="body-choice-gender ">
+                                <img src="./assets/img/arrow-right-.png" class="arrow-right-icon "></img>
+                                <div class="body-choice-gender-item num1 active-choice ">Women</div>
+                                <div class="body-choice-gender-item num2 ">Man</div>
+                                <div class="body-choice-gender-item num3 ">Kids</div>
+                            </div>
+                            <div class="body-choice-navigation">
+                                <button class="btn btn-dark body-choice-navigation-left">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+                                      </svg>
+                                </button>
+                                <button class="btn btn-dark body-choice-navigation-right">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                  </svg></button>
+                            </div>
+                        </div>
+                        <div class="slider-item row">
+                            <div class="slider-item-cart card col-lg-3 col-6 col-md-4" >
+                                <img src="./assets/img/sneaker123.png" class="card-img-top" alt="tee">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                </div>
+                              </div>
+                            <div class="slider-item-cart card col-lg-3 col-6 col-md-4" >
+                                <img src="./assets/img/sneaker.png" class="card-img-top" alt="tee">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                </div>
+                              </div>
+                            <div class="slider-item-cart card col-lg-3 col-6 col-md-4" >
+                                <img src="./assets/img/women.png" class="card-img-top" alt="tee">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                </div>
+                              </div>
+                            <div class="slider-item-cart card col-lg-3 col-6 col-md-4" >
+                                <img src="./assets/img/sneaker123.png" class="card-img-top" alt="tee">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                </div>
+                              </div>
+                            <div class="card slider-item-cart col-lg-3 col-6 col-md-4" >
+                                <img src="./assets/img/football.png" class="card-img-top" alt="tee">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                </div>
+                              </div>
+                            <div class="card slider-item-cart col-lg-3 col-6 col-md-4" >
+                                <img src="./assets/img/sneaker123.png" class="card-img-top" alt="tee">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                </div>
+                              </div>
+                            <div class="card slider-item-cart col-lg-3 col-6 col-md-4" >
+                                <img src="./assets/img/sneaker123.png" class="card-img-top" alt="tee">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                </div>
+                              </div>
+                            <div class="card slider-item-cart col-lg-3 col-6 col-md-4" >
+                                <img src="./assets/img/football.png" class="card-img-top" alt="tee">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                </div>
+                              </div>
+                            <div class="card slider-item-cart col-lg-3 col-6 col-md-4" >
+                                <img src="./assets/img/sneaker123.png" class="card-img-top" alt="tee">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                </div>
+                              </div>
+                            <div class="card slider-item-cart col-lg-3 col-6 col-md-4" >
+                                <img src="./assets/img/sneaker123.png" class="card-img-top" alt="tee">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                </div>
+                              </div>
+                            <div class="card slider-item-cart col-lg-3 col-6 col-md-4" >
+                                <img src="./assets/img/sneaker123.png" class="card-img-top" alt="tee">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="body-teaser">
+                            <div class="teaser row">
+                                <div class="teaser-item col-12 col-md-3 col-sm-6">
+                                    <img src="./assets/img/couple.jpg" alt="img-1" class="teaser-item-img">
+                                    <div class="teaser-item-title">THE BACK TO THE SHOP</div>
+                                    <div class="teaser-item-des">Get school-ready with must-have staples</div>
+                                    <button class="shop-now">SHOP NOW</button>
+                                </div>
+                                <div class="teaser-item col-12 col-md-3 col-sm-6">
+                                    <video src="./assets/img/sneakersvideo.mp4" autoplay loop playinline preload="auto" muted  class="teaser-item-img"></video>
+                                    <div class="teaser-item-title">ENJOY YOUR COMFORT ZONE</div>
+                                    <div class="teaser-item-des">Comfort meets enegy. Supernova 2.</div>
+                                    <button class="shop-now">SHOP NOW</button>
+
+                                </div>
+                                <div class="teaser-item col-12 col-md-3 col-sm-6">
+                                    <video src="./assets/img/thumvideolg.mp4    " autoplay loop playinline preload="auto" muted  class="teaser-item-img"></video>
+                                    <div class="teaser-item-title">FASTER IN ALL DIMENSIONS</div>
+                                    <div class="teaser-item-des">Explore multidimensional speed with the new X Speedportal & Rick and Morty</div>
+                                    <button class="shop-now">SHOP NOW</button>
+                                </div>
+                                <div class="teaser-item col-12 col-md-3 col-sm-6">
+                                    <img src="./assets/img/newimg.png" alt="img-4" class="teaser-item-img">
+                                    <div class="teaser-item-title">Forward in every step</div>
+                                    <div class="teaser-item-des">stay on track</div>
+                                    <button class="shop-now">SHOP NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body-story">
+                        <div class="story-content row d-flex">
+                            <div class="story-box col-12 col-lg-6">
+                                <div class="story-box-heading">STORIES, STYLE, AND SPORTING GOODS AT ADIDAS, SINCE 1949</div>
+                                <div class="story-box-text">
+                                    Through sports, we have the power to change lives. Sports keep us fit. They keep us mindful. They bring us together. Athletes inspire us. They help us to get up and get moving. And sporting goods featuring the latest technologies help us beat our personal best. adidas is home to the runner, the basketball player, the soccer kid, the fitness enthusiast, the yogi. And even the weekend hiker looking to escape the city. The 3-Stripes are everywhere and anywhere. In sports. In music. On life’s stages. Before the whistle blows, during the race, and at the finish line. We’re here to support creators. To improve their game. To live their lives. And to change the world.
+
+adidas is about more than sportswear and workout clothes. We partner with the best in the industry to co-create. This way we offer our fans the sporting goods, style and clothing that match the athletic needs, while keeping sustainability in mind. We’re here to support creators. Improve their game. Create change. And we think about the impact we have on our world.
+                                </div>
+                            </div>
+                            <div class="story-box col-12 col-lg-6">
+                                <div class="story-box-heading">WORKOUT CLOTHES, FOR ANY SPORT</div>
+                                <div class="story-box-text">
+                                    adidas designs for athletes of all kinds. Creators who love to change the game. People who challenge conventions, break the rules, and define new ones. Then break them all over again. We design sports apparel that gets you moving, winning, and living life to the fullest. We create bras and tights for female athletes who play just as hard as the men. From low to high support. Maximum comfort. We design, innovate and iterate. We test new technologies in action. On the field, the track, the court, and in the pool. We’re inspired by retro workout clothes, creating new streetwear essentials. From NMD and Ozweego to our Firebird tracksuits. From Stan Smith to Superstar. Classic sports models are brought back to life on the streets and the stages around the world.
+
+Through our collections we blur the borders between high fashion and high performance. Like our adidas by Stella McCartney athletic clothing collection – designed to look the part inside and outside of the gym. Or some of our adidas Originals lifestyle pieces, that can be worn as sports apparel too. Our lives are constantly changing. Becoming more and more versatile. And adidas designs with that in mind.
+                                </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="back-to-top">
+                        <a href="#" class="back-to-top-text">
+                            <img src="./assets/img/arrowtop.png" alt="top" class="to-top-icon">
+                            BACK TO TOP</a>
+                    </div>
+                    <div class="footer">
+                        <div class="footer-account">
+                            <div class="footer-account-item col-6">LOGIN</div>
+                            <div class="footer-account-item col-6">YOUR BAG</div>
+                        </div>
+                        <div class="footer-news ">
+                            <div class="footer-news-content row">
+                                <div class="footer-news-content-heading col-12 col-lg-6">BECOME A MEMBER & GET 15% OFF</div>
+                                <button class="footer-news-content-btn col-12 col-lg-6">
+                                    SIGN UP FOR FREE
+                                    <svg class="icon-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M502.6 278.6l-128 128c-12.51 12.51-32.76 12.49-45.25 0c-12.5-12.5-12.5-32.75 0-45.25L402.8 288H32C14.31 288 0 273.7 0 255.1S14.31 224 32 224h370.8l-73.38-73.38c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l128 128C515.1 245.9 515.1 266.1 502.6 278.6z"/></svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="footer-general">
+                            <div class="footer-general-content-desktop row container">
+                                <div class="general-content col-2">
+                                    <h4 class="general-content-heading">Product</h4>
+                                    <span class="general-content-item">Shoes</span>
+                                    <span class="general-content-item">Clothing</span>
+                                    <span class="general-content-item">Acessories</span>
+                                    <span class="general-content-item">Gift Card</span>
+                                    <span class="general-content-item">Best Seller</span>
+                                    <span class="general-content-item">Sale</span>
+                                </div>
+                                <div class="general-content col-2">
+                                    <h4 class="general-content-heading">Sport</h4>
+                                    <span class="general-content-item">Soccer</span>
+                                    <span class="general-content-item">Running</span>
+                                    <span class="general-content-item">Basketball</span>
+                                    <span class="general-content-item">Football</span>
+                                    <span class="general-content-item">Outdoor</span>
+                                    <span class="general-content-item">Golf</span>
+                                    <span class="general-content-item">Tennis</span>
+                                    <span class="general-content-item">Baseball</span>
+                                    <span class="general-content-item">Tranning</span>
+                                </div>
+                                <div class="general-content col-2">
+                                    <h4 class="general-content-heading">COLLECTIONS</h4>
+                                    <span class="general-content-item">adicolor</span>
+                                    <span class="general-content-item">Ultrabost</span>
+                                    <span class="general-content-item">NMD</span>
+                                    <span class="general-content-item">Forum</span>
+                                    <span class="general-content-item">Superstar</span>
+                                    <span class="general-content-item">EQT</span>
+                                    <span class="general-content-item">Tiro</span>
+                                    <span class="general-content-item">adizero</span>
+                                </div>
+                                <div class="general-content col-2">
+                                    <h4 class="general-content-heading">SUPPORT</h4>
+                                    <span class="general-content-item">Help</span>
+                                    <span class="general-content-item">Returns and Exchanges</span>
+                                    <span class="general-content-item">Shipping</span>
+                                    <span class="general-content-item">Size Charts</span>
+                                    <span class="general-content-item">How to Clean</span>
+                                    <span class="general-content-item">Bra Fit Guide</span> 
+                                    <span class="general-content-item">Store Locator</span> 
+                                </div>
+                                <div class="general-content col-2">
+                                    <h4 class="general-content-heading">COMPANY INFO</h4>
+                                    <span class="general-content-item">About Us</span>
+                                    <span class="general-content-item">Student Discount</span>
+                                    <span class="general-content-item">Discount</span>
+                                    <span class="general-content-item">adidas Stories</span>
+                                    <span class="general-content-item">Adidas Apps</span>
+                                    <span class="general-content-item">adiClub</span>
+                                    <span class="general-content-item">Press</span>
+                                    <span class="general-content-item">Careers</span>
+                                    <span class="general-content-item">Coverage</span>
+                                    <span class="general-content-item">Location Selector</span>
+                                </div>
+                                <div class="general-content col-2">
+                                    <h4  class="general-content-heading">Follow Us</h4>
+                                    <a href="https://www.facebook.com/adidasVN/?brand_redir=182162001806727" class="general-content-icon">FaceBook</a>
+                                    <a href="https://www.instagram.com/adidas/" class="general-content-icon">Instagram</a>
+                                    <a href="https://twitter.com/adidas" class="general-content-icon">Twitter</a>
+                                    <a href="https://www.pinterest.com/adidas/" class="general-content-icon">Printest</a>
+                                    <a href="https://www.tiktok.com/@adidas?lang=en" class="general-content-icon">Tiktok</a>
+                                    <a href="https://www.youtube.com/c/adidas" class="general-content-icon">Youtube</a>
+                                </div>
+                            </div>
+                            <div class="footer-general-content-mobile row ">
+                                <div class="general-content-list col-6">
+                                    <span class="general-content-list-item">Helps</span>
+                                    <span class="general-content-list-item">Returns and Exchanges</span>
+                                    <span class="general-content-list-item">Order Tracker</span>
+                                    <span class="general-content-list-item">Shipping</span>
+                                    <span class="general-content-list-item">Promotions</span>
+                                    <span class="general-content-list-item">Location Selector</span>
+                                </div>
+                                <div class="general-content-list col-6">
+                                    <span class="general-content-list-item">adiClub</span>
+                                    <span class="general-content-list-item">Store Finder</span>
+                                    <span class="general-content-list-item">Gift Cards</span>
+                                    <span class="general-content-list-item">Adidas Apps</span>
+                                    <span class="general-content-list-item">Size Charts</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-bottom">
+                            <div class="bottom-content">
+                                <div class="bottom-content-item border-item">Data Setting</div>
+                                <div class="bottom-content-item border-item">Do not sell my personal information</div>
+                                <div class="bottom-content-item border-item">Privacy Policy</div>
+                                <div class="bottom-content-item">Terms and Conditions</div>
+                            </div>
+                            <div class="made-by">@Nvt2106</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./assets/main.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
